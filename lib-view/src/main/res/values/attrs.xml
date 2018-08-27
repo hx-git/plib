@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="key_text" format="string" />
+    <attr name="value_text" format="string" />
+    <attr name="key_text_color" format="color" />
+    <attr name="value_text_color" format="color" />
+    <attr name="key_width" format="dimension" />
+    <attr name="value_width" format="dimension" />
+    <attr name="touch_parent_right" format="boolean" />
+    <attr name="text_size" format="dimension" />
+    <attr name="icon" format="reference"/>
+    <attr name="icon_size" format="dimension"/>
+    <attr name="colon" format="boolean"/>
+    <attr name="icon_right" format="reference"/>
+    <attr name="icon_padding" format="dimension"/>
+    <attr name="item_onclick" format="boolean"/>
+    <attr name="value_hint" format="string"/>
+
+    <declare-styleable name="KeyValueView" >
+        <attr name="key_text"/>
+        <attr name="value_text"/>
+        <attr name="key_text_color"/>
+        <attr name="value_text_color"/>
+        <attr name="key_width"/>
+        <attr name="value_width"/>
+        <attr name="touch_parent_right"/>
+        <attr name="text_size"/>
+        <attr name="icon"/>
+        <attr name="icon_size"/>
+        <attr name="colon"/>
+    </declare-styleable>
+
+    <declare-styleable name="PlatformItemView">
+        <attr name="key_text"/>
+        <attr name="value_text"/>
+        <attr name="key_text_color"/>
+        <attr name="value_text_color"/>
+        <attr name="key_width"/>
+        <attr name="value_width"/>
+        <attr name="touch_parent_right"/>
+        <attr name="text_size"/>
+        <attr name="icon"/>
+        <attr name="icon_size"/>
+        <attr name="icon_right"/>
+        <attr name="colon"/>
+        <attr name="icon_padding"/>
+        <attr name="item_onclick"/>
+        <attr name="value_hint"/>
+        <attr name="type">
+            <enum name="date" value="1"/>
+            <enum name="pick" value="2"/>
+            <enum name="edit" value="3"/>
+            <enum name="pick_edit" value="4"/>
+            <enum name="Fuzzy" value="5"/>
+            <enum name="edit_num" value="6"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TabItem">
+        <attr name="text" />
+        <attr name="icon" />
+        <attr name="layout" />
+    </declare-styleable>
+
+    <declare-styleable name="TabLayout">
+        <attr name="tabIndicatorColor" format="color" />
+        <attr name="tabIndicatorHeight" format="dimension" />
+        <attr name="tabContentStart" format="dimension" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="tabMode">
+            <enum name="scrollable" value="0" />
+            <enum name="fixed" value="1" />
+        </attr>
+        <attr name="tabGravity">
+            <enum name="fill" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="tabMinWidth" format="dimension" />
+        <attr name="tabMaxWidth" format="dimension" />
+        <attr name="tabTextAppearance" format="reference" />
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabSelectedTextColor" format="color" />
+        <attr name="tabPaddingStart" format="dimension" />
+        <attr name="tabPaddingTop" format="dimension" />
+        <attr name="tabPaddingEnd" format="dimension" />
+        <attr name="tabPaddingBottom" format="dimension" />
+        <attr name="tabPadding" format="dimension" />
+        <!--下划线的宽度-->
+        <attr name="tabLineOffset" format="dimension"/>
+    </declare-styleable>
+    <!--TagView-->
+    <declare-styleable name="TagView">
+        <attr name="lineMargin" format="dimension" />
+        <attr name="tagMargin" format="dimension" />
+        <attr name="textPaddingLeft" format="dimension" />
+        <attr name="textPaddingRight" format="dimension" />
+        <attr name="textPaddingTop" format="dimension" />
+        <attr name="textPaddingBottom" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="GridLayout">
+        <!--一列有多少个Item-->
+        <attr name="gridSpan" format="integer" />
+        <!--水平间距-->
+        <attr name="gridHorizontalSpace" format="dimension" />
+        <!--垂直间距-->
+        <attr name="gridVerticalSpace" format="dimension" />
+        <!--最大子View的个数-->
+        <attr name="gridMaxItem" format="integer" />
+    </declare-styleable>
+
+    <!--分割线-->
+    <style name="line">
+        <item name="background">@color/font_common_2</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <!--记录 条目-->
+    <style name="register_item" >
+        <item name="android:paddingTop">@dimen/size_24dp</item>
+        <item name="android:paddingBottom">@dimen/size_24dp</item>
+        <item name="android:paddingLeft">@dimen/size_4dp</item>
+        <item name="android:paddingRight">@dimen/size_4dp</item>
+        <item name="android:layout_marginLeft">@dimen/size_24dp</item>
+        <item name="android:layout_marginRight">@dimen/size_24dp</item>
+        <item name="text_size">@dimen/text_size_16sp</item>
+        <item name="key_text_color">#777777</item>
+        <item name="value_text_color">#777777</item>
+        <item name="touch_parent_right">true</item>
+        <item name="android:background">@drawable/item_bg_pressed</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

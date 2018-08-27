@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="size_8dp">4dp</dimen>
+    <dimen name="size_16dp">8dp</dimen>
+    <dimen name="size_24dp">14dp</dimen>
+    <dimen name="size_28dp">16dp</dimen>
+    <dimen name="size_32dp">24dp</dimen>
+    <dimen name="size_40dp">32dp</dimen>
+    <dimen name="size_48dp">40dp</dimen>
+    <dimen name="size_56dp">40dp</dimen>
+    <dimen name="size_64dp">32dp</dimen>
+
+    <dimen name="text_size_16sp">14sp</dimen>
+    <dimen name="text_size_24sp">16sp</dimen>
+    <dimen name="tag_text_size">9sp</dimen>
+</resources>

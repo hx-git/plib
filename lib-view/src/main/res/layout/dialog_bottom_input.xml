@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:drawable="@drawable/background_arc_8dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="信息"
+            android:textSize="@dimen/text_size_16sp"
+            android:textColorHint="@color/font_tab_0"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:paddingLeft="@dimen/size_24dp"
+            android:paddingRight="@dimen/size_24dp"
+            android:background="@drawable/input_insert_drawable_bottom_4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btn_confirm"
+        android:layout_gravity="center"
+        android:layout_marginRight="4dp"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/size_40dp"
+        android:background="@color/white"
+        android:enabled="false"
+        android:textColor="@drawable/bg_text_clickable"
+        android:text="提交" />
+</LinearLayout>
