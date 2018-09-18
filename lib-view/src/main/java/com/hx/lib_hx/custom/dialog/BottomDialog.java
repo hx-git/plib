@@ -17,8 +17,6 @@ import com.hx.lib_hx.R;
  * 选择页面
  */
 public class BottomDialog extends Dialog{
-
-
     private AppCompatActivity mContext;
     private FrameLayout mContainer;
     private OnItemClickListener mListener;

@@ -12,8 +12,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        PlatformItemView view = new PlatformItemView(this);
-        view.setKeyText("hello");
-        setContentView(view);
     }
 }
